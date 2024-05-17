@@ -1,11 +1,11 @@
 package com.wenapp.servlet;
 
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
 
 import java.io.IOException;
-
-public class ServletDome01 implements Servlet {
-
+@WebServlet(urlPatterns = "/Demo03")
+public class ServletDome03 implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
 
@@ -16,10 +16,9 @@ public class ServletDome01 implements Servlet {
         return null;
     }
 
-    //提供服务的方法
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        System.out.println("123");
+        System.out.println("33333");
     }
 
     @Override
