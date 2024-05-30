@@ -7,6 +7,8 @@
 <body>
 <h1><%= "Hello World!" %></h1>
 <br/>
-<a href="hello-servlet">123456</a>
+<a href="RequestTi.html">123456</a>
+<a href="tongyong.html">tongyong</a>
+<a href="denglu.html">登录</a>
 </body>
 </html>

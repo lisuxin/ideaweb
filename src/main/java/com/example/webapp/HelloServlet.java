@@ -1,4 +1,4 @@
-package com.example.webapp;
+package main.java.com.example.webapp;
 
 import java.io.*;
 import jakarta.servlet.http.*;
