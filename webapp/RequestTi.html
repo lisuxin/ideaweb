@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+        window.onload = function () {
+            //获取对象
+            var img = document.getElementById("");
+            //绑定单机事件
+            img.onclick = function(){
+                //加时间戳
+                var data = new Date().getTime();
+                img.src = "资源路径"
+            }
+        }
+    </script>
 </head>
 <body>
 <form action="/Requsetdome" method="post">

@@ -1,4 +1,4 @@
-package main.java.com.wenapp.request;
+package com.wenapp.request;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
